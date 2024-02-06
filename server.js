@@ -18,7 +18,8 @@ app.use(Express.json())
 // json() --> jsonData ===> Javascript Object(Quotes info)
 // end point --> function which actually collect the data from the front end
 
-Mongoose.connect("mongodb://localhost:27017/studentdatabase")
+Mongoose.connect("mongodb+srv://uday:udayuday@cluster0.9nw5aik.mongodb.net/studentdatabase?retryWrites=true&w=majority")
+
 
 //Create a Blueprint/Schema
 
